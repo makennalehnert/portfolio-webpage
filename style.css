@@ -1,0 +1,53 @@
+/* header styling */
+header {
+  background: #131B23;
+  color: #E9F1F7;
+  text-align: center;
+  padding: 10px;
+  margin: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+/* increase margin between header and image*/
+img {
+  margin-top: 5%;
+}
+/*color background and center text */
+body {
+  background: #E9F1F7;
+  text-align: center;
+}
+/* center ordered list */
+ol {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  width: 65%;
+  border-top: 1px solid #131B23;
+}
+
+h1{
+  height: 20px;
+}
+
+h3 h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+p{
+  font-family: 'Times New Roman', serif
+  font-size: 18px;
+}
+
+footer{
+  background: #131B23;
+  color: #E9F1F7;
+  padding: 5px;
+}
+/* Styled links using pseudo-classes*/
+a:link{color: darkblue}
+a:visited{color: blueviolet}
+a:hover{color: dodgerblue}
+a:active{color: violet}
